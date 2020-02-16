@@ -1,0 +1,25 @@
+{
+  "name": "cypress-cucumber-2020",
+  "version": "1.0.0",
+  "description": "cypress with Cucumber bdd",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "cucumber"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.0.2",
+    "cypress-cucumber-preprocessor": "^2.0.1",
+    "prettier": "^1.19.1"
+  },
+  "cypress-cumumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
